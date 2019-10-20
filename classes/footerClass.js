@@ -7,6 +7,10 @@ export class Footer extends HTMLElement {
         document.head.appendChild(styleForFooter);
     }
 
+    sendMessage() {
+        // send message
+    }
+
     render() {
         return footerContent;
     }

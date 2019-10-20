@@ -7,6 +7,10 @@ export class Header extends HTMLElement {
         document.head.appendChild(styleForHeader);
     }
 
+    showSubmenu() {
+        // show submenu
+    }
+
     render() {
         return headerContent;
     }
